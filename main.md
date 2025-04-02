@@ -57,13 +57,31 @@ To test this hypothesis, we supplemented commercial human MTHFS (the only commer
 
 :::
 
+:::::{tab-set}
+
+::::{tab-item} Time series
+:sync: tab1
 :::{figure} ./figures/MTHFS_kinetics.png
-:name: fig2-kinetics
+:name: fig2-endpoint
 :align: center
 :width: 50%
 
-Translation kinetics of PURE system reactions under different folinic acid conditions and MTHFS supplementation. The graph shows plamGFP fluorescence measurements over time.
+Steady state fluorescence measurements comparing PURE system performance across different folinic acid preparations and MTHFS enzyme concentrations. (Date source: `experimental-01/analysis`)
 :::
+::::
+
+::::{tab-item} End point
+:sync: tab2
+:::{figure} ./experimental-01/analysis/MTHFS_endpoint.png
+:name: #fig:20250220-kinetics
+:align: center
+:width: 50%
+
+Translation kinetics of PURE system reactions under different folinic acid conditions and MTHFS supplementation. The graph shows plamGFP fluorescence measurements over time. (Data source `experimental-01/20250220-analysis.ipynb` by tagging cell with `#| label: fig:20250220-kinetics`)
+:::
+::::
+
+:::::
 
 :::{table} Kinetic parameters extracted from experimental data
 :label: table-kinetic-params
@@ -81,78 +99,12 @@ Translation kinetics of PURE system reactions under different folinic acid condi
 
 :::
 
-:::{figure} ./figures/MTHFS_endpoint.png
-:name: fig2-endpoint
-:align: center
-:width: 50%
-
-Steady state fluorescence measurements comparing PURE system performance across different folinic acid preparations and MTHFS enzyme concentrations.
-:::
-
-# Let's compare multiple experiments
-
-## What about grids?
-
-:::::{grid} 1 1 2 3
-
-::::{card}
-:header: Experiment 01 ✏️
-:::{figure} ./figures/MTHFS_endpoint.png
-:name: fig2-endpoint
-:align: center
-:width: 50%
-
-Steady state fluorescence measurements comparing PURE system performance across different folinic acid preparations and MTHFS enzyme concentrations.
-:::
-::::
-
-::::{card}
-:header: Experiment 2 ✨
-:::{figure} ./figures/MTHFS_kinetics.png
-:name: fig2-kinetics
-:align: center
-:width: 50%
-
-Translation kinetics of PURE system reactions under different folinic acid conditions and MTHFS supplementation. The graph shows plamGFP fluorescence measurements over time.
-:::
-::::
-
-:::::
-
-## What about tabs? 
-
-:::::{tab-set}
-
-::::{tab-item} Experiment 1
-:sync: tab1
-:::{figure} ./figures/MTHFS_endpoint.png
-:name: fig2-endpoint
-:align: center
-:width: 50%
-
-Steady state fluorescence measurements comparing PURE system performance across different folinic acid preparations and MTHFS enzyme concentrations.
-:::
-::::
-
-% Jon says this is bullshit...
-
-::::{tab-item} Experiment 2
-:sync: tab2
-:::{figure} ./figures/MTHFS_kinetics.png
-:name: fig2-kinetics
-:align: center
-:width: 50%
-
-Translation kinetics of PURE system reactions under different folinic acid conditions and MTHFS supplementation. The graph shows plamGFP fluorescence measurements over time.
-:::
-::::
-
-:::::
-
-
-
 While the performance did not fully match that observed using pre-converted 5,10-methenyl-THF, the improvement was substantial, demonstrating proof-of-concept that MTHFS activity is essential. This finding validates our hypothesis that MTHFS must be a "shadow component" unintentionally contributing to the success of some PURE preparations.
 
 # Implications for PURE System Design & Future Directions 
 
+In this developer note, we want to emphasize a key finding: simply dissolving folinic acid in water without MTHFS does not support high-performing PURE reactions. This explains why some labs, particularly those using 36-Pot purification methods, may struggle with folinic acid-based energy mixes.
 
+Our next step is to express bacterial MTHFS and integrate it into our PURE mixture. Based on our initial results, we encourage adding MTHFS to PURE systems to ensure a more stable energy mix, as folinic acid is a more stable THF derivative compared to 5,10-methenyl-THF. This could improve long-term reproducibility and performance.
+
+Finally, we want to highlight a tradeoff in PURE system design. One-pot purification is a cheaper and more convenient approach that many researchers rely on, but it may come at the cost of a less-defined system, where unexpected enzyme carryover (like MTHFS) influences performance. Understanding these hidden factors is crucial as the PURE community continues refining and optimizing the system.
