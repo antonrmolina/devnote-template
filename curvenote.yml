@@ -35,7 +35,7 @@ project:
   toc:
     - file: main.md
     - file: experiments/experimental-01/20250220-analysis.ipynb
-      title: Analysis Notebook
+     title: Analysis Notebook
   # The rest of the information shouldn't be modified
   github: https://github.com/bnext-bio/nucleus-developer-notes
   license: CC-BY-4.0
