@@ -7,10 +7,10 @@ abstract: |
 
 # Background: What does folinic acid do in PURE? 
 
-Folinic acid (5-formyl-THF) is one of the components in Energy Mix, the small molecule components of PURE reactions, and is crucial to the production of N-formylmethionine (fMet) by the enzyme Methionyl-tRNA formyltransferase (MTF). fMet is a modified amino acid required for translation initiation in bacterial systems like PURE. However, folinic acid cannot be used directly by MTF and first has to be converted into 10-formyltetrahydrofolate (10-formyl-THF). This process happens in two steps: (1) folinic acid is converted (chemically or enzymatically) to an intermediate product 5,10-methenyl-THF, which then (2) spontaneously hydrolyzes into 10-formyl-THF.
+Folinic acid (5-formyl-THF) is one of the components in Energy Mix, the small molecule components of PURE reactions, and is crucial to the production of N-formylmethionine (fMet) by the enzyme Methionyl-tRNA formyltransferase (MTF). fMet is a modified amino acid required for translation initiation in bacterial systems like PURE. However, folinic acid cannot be used directly by MTF and first has to be converted into 10-formyltetrahydrofolate (10-formyl-THF). This process happens in two steps: (1) folinic acid is converted (chemically or enzymatically) to an intermediate product 5,10-methenyl-THF, which then (2) spontaneously hydrolyzes into 10-formyl-THF ({ref}`fig:FA_metabolism`).
 
 :::{figure} ./figures/FA_metabolism.png
-:label: fig1-FA_metabolism.png
+:label: fig:FA_metabolism
 :width: 75%
 Reaction pathway for the production of 10-formyl-THF from Folinic acid by MTHFS. The formyl group used in fMet synthesis is highlighted in yellow. We highlight a nonchanging portion of the molecule in blue for visual convenience.
 :::
@@ -40,7 +40,7 @@ Methenyltetrahydrofolate synthetase (MTHFS, [EC 6.3.3.2](https://ecocyc.org/acco
 
 # Experimental Confirmation: Supplementing MTHFS Restores Activity
 
-To test this hypothesis, we supplemented commercial human MTHFS (the only commercially available source) into PURE reactions with energy mix containing folinic acid dissolved in water. The addition of MTHFS resulted in a dramatic improvement in PURE system performance, confirming that folinic acid processing is required. 
+To test this hypothesis, we supplemented commercial human MTHFS (the only commercially available source) into PURE reactions with energy mix containing folinic acid dissolved in water. The addition of MTHFS resulted in a dramatic improvement in PURE system performance as shown in {ref}`fig-kinetics` and {ref}`fig-endpoint`, confirming that folinic acid processing is required. 
 
 :::{table} Description of experimental paramters
 :label: table-experimental-params
@@ -61,8 +61,8 @@ To test this hypothesis, we supplemented commercial human MTHFS (the only commer
 
 ::::{tab-item} Time series
 :sync: tab1
-:::{figure} ./figures/MTHFS_kinetics.png
-:name: fig2-endpoint
+:::{figure} #fig:kinetics
+:name: fig-kinetics
 :align: center
 :width: 50%
 
@@ -72,8 +72,8 @@ Steady state fluorescence measurements comparing PURE system performance across 
 
 ::::{tab-item} End point
 :sync: tab2
-:::{figure} ./experimental-01/analysis/MTHFS_endpoint.png
-:name: #fig:20250220-kinetics
+:::{figure} ./experiments/experimental-02/analysis/MTHFS_endpoint.png
+:name: fig-endpoint
 :align: center
 :width: 50%
 
