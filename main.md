@@ -72,7 +72,7 @@ Steady state fluorescence measurements comparing PURE system performance across 
 
 ::::{tab-item} End point
 :sync: tab2
-:::{figure} ./experiments/experimental-02/analysis/MTHFS_endpoint.png
+:::{figure} ./experiments/experimental-02/03-analysis/MTHFS_endpoint.png
 :name: fig-endpoint
 :align: center
 :width: 50%

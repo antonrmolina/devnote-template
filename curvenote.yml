@@ -34,8 +34,8 @@ project:
   # Add any supporting files to the toc, but ensure that your main manuscript is first is the list
   toc:
     - file: main.md
-    - file: main-data.ipynb
-    - file: experimental-01/20250220-analysis.ipynb
+    - file: experiments/experimental-01/20250220-analysis.ipynb
+      title: Analysis Notebook
   # The rest of the information shouldn't be modified
   github: https://github.com/bnext-bio/nucleus-developer-notes
   license: CC-BY-4.0
