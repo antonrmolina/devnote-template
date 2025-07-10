@@ -1,0 +1,14 @@
+# CERN-OHL-P License Agreement
+
+**Copyright**: All Covered Source is Copyright (c) b.next, Inc. 2025 [and the other
+licensors identified in unique code files or listed here]. 
+
+Aspects of Covered Source may be patent pending. For purposes of this distribution “Covered Source” means and includes all materials contained in this directory and certain elements referenced within that are needed to Make the Product described in this Developer Note. Certain elements of the Covered Source identified below are not amenable to distribution via GitHub, such as:
+
+- Plasmids and other biological materials from b.next, Inc. can be obtained by request to b.next, Inc. (email: build@bnext.bio; materials are available under [OpenMTA](https://www.openplant.org/openmta));
+- background protocols, datasets, and designs can be obtained from nucleus.bnext.bio.
+
+
+**Grant of License**: b.next, Inc. hereby offers the Covered Source provided with this distribution under the [CERN Open Hardware License version 2 – Permissive](https://opensource.org/license/cern-ohl-p) (“CERN-OHL-P-2.0”). You may use the Covered Source for any legal purposes, whether research use only or commercial, so long as you adhere to the notice, attribution and other obligations in the CERN-OHL-P-2.0. While the CERN-OHL-P-2.0 is nominally devoted to hardware distributions, it has been adopted and promoted by the Open Source Initiative as compliant with open source software licensing principles. b.next also recognizes the ready applicability of the CERN-OHL-P-2.0 to the cellular designs, assembly instructions and other artifacts made available with this distribution. This license notice does not purport to alter the terms of the CERN-OHL-P-2.0 (permissive) license agreement. It does, however, provide specifics concerning the Covered Source made subject to the license grants and guidance regarding your own implementation of the Covered Source and the CERN-OHL-P-2.0.
+
+**Contributions:** Any contributions you elect to make to the b.next maintained projectoffering the Covered Source shall be made pursuant to the terms of the CERN-OHL-P-2.0 license. By contributing Covered Source materials to such b.next maintained project, you hereby agree that you are a Licensor for purposes of the CERN-OHL-P-2.0 license and that distribution of your Covered Source by b.next is a Conveyance on yourbehalf. You hereby represent and agree that (1) you are fully authorized to make any contributions to such b.next maintained project, (2) are either acting in your own individual capacity in making such contributions or have obtained all consents,authorizations and clearances from your employer, organization or affiliated institution to make such contributions, and (3) shall not infringe any third party rights or obligations in making such contributions.
