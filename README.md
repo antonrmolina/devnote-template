@@ -2,7 +2,7 @@
 
 ## Getting started
 
-TODO
+If you are new to Developer Notes (DevNotes) get started by reading the documentation for getting started with [Nucleus Hub](https://nucleus.bnext.bio/nucleus-hub-guide) and writing your first [DevNote](https://nucleus.bnext.bio/developer-note-guide)
 
 ## Website
 
