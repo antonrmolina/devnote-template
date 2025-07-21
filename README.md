@@ -6,7 +6,7 @@ If you are new to Developer Notes (DevNotes) get started by reading the document
 
 ## Website
 
-Visit the Nucleus Ecosystem at ecosystem.bnext.bio.
+Visit the Nucleus Ecosystem at https://bnext.bio/nucleus.
 
 
 ## How to cite
@@ -16,11 +16,11 @@ Please cite Developer Notes as *Author(s), Title, Year, URL/DOI*.
 
 ## Notice
 
-All contribution components of this Developer Note are licensed under the CERN-OHL-P-2.0 (see LICENSE.md). The text of this Developer Note is available under CC-BY and maybe reused with appropriate attribution. The [Nucleus CDK](https://pypi.org/project/nucleus-cdk/) is available under the MIT license. 
+The contents of this DevNote is Covered Source and licensed under the CERN-OHL-P-2.0 (see LICENSE.md). The non-executable text of this Developer Note is available under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en) and maybe reused with appropriate attribution. This DevNote may make use of the [Nucleus CDK](https://pypi.org/project/nucleus-cdk/) which is available under the [MIT license](https://opensource.org/license/mit). 
 
 ## Thanks
 
-All contributors to the project are listed at nucleus.bnext.bio/thanks
+All contributors to the project are listed at nucleus.bnext.bio/thanks.
 
 ## Contact
 
