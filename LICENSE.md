@@ -3,7 +3,7 @@
 **Copyright**: All Covered Source is Copyright (c) b.next, Inc. 2025 and the other licensors identified in unique files. Aspects of Covered Source may be patent pending. For purposes of this distribution “Covered Source” means and includes all materials contained in this directory and certain elements referenced within that are needed to Make the Product described in this Developer Note. Certain elements of the Covered Source identified below are not amenable to distribution via GitHub, such as:
 
 - background protocols, datasets, and designs are licensed under the terms of the CERN-OHL-P as described herein and can be obtained from nucleus.bnext.bio; 
-- plasmids and other biological materials from b.next, Inc. are licensed under the terms of the CERN-OHL-P as described herein and can be obtained by request to b.next, Inc. (email: build@bnext.bio; physical materials are available under [OpenMTA](https://www.openplant.org/openmta));
+- physical plasmids and other biological materials can be obtained by request to b.next, Inc. (email: build@bnext.bio) under the terms of the [OpenMTA](https://www.openplant.org/openmta) (corresponding designs, e.g. sequence specifications, are licensed under the terms of the CERN-OHL-P as described herein);
 - the Nucleus Cell Development Kit is licensed under the terms of the [MIT license](https://opensource.org/license/mit) and can be obtained from https://pypi.org/project/nucleus-cdk/;
 - third-party contributions available from devnotes.bnext.bio licensed under the terms of the CERN-OHL-P as described herein.
 
