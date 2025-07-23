@@ -1,32 +1,36 @@
 version: 1
 project:
+  # doi: 10.63765/djnv7772
   # Update this to match `nucleus-devnote-core-<folder>` the folder should be `???`
   id: nucleus-devnote-core-00_myst_template
   # Ensure your title is the same as in your `main.md`
-  title: An Unexpected Enzyme in PURE Why Folinic Acid Needs Extra Help 
-  subtitle: An Unexpected Enzyme in PURE Why Folinic Acid Needs Extra Help 
-  description: An Unexpected Enzyme in PURE Why Folinic Acid Needs Extra Help 
+  title: "MTHFS - an Unexpected Enzyme in PURE" 
+  subtitle: "[summarize my devnote in one sentence]" 
+  description: "[this appears as description for social media preview, recommend using subtitle]" 
   # Authors should have affiliations, emails and ORCIDs if available
   authors:
     - name: Yemo Ku
       email: yemo@bnext.bio
       orcid: 0000-0000-0000-0001
       affiliations:
-        - b.next
+        - name: b.next, San Francisco, California, 94107, USA
+          city: San Francisco
+          state: California
+          postal_code: 94107
+          country: USA
       corresponding: true
   keywords:
-    - cytosols
-    - analysis standards
-    - tutorials
+    - Cytosol
+    - Module
   # Add the abbreviations that you use in your paper here
-  abbreviations:
-    MyST: Markedly Structured Text
-    CDK: cell development kit
+  # abbreviations:
+  #   MyST: Markedly Structured Text
+  #   CDK: cell development kit
   # Add specs here for any additional content you want to cross reference
   references:
     devnotes: https://devnotes.bnext.bio
   # Set an initial publisation date for the note
-  date: 2024-07-10
+  date: 2025-07-10
   # Reference a specific thumbnail if you are not happy with the automatically selected one
   #thumbnail: thumbnail.png
   # A create a banner image for your publication, use this is a placeholder as a guide (webp or png)
@@ -35,7 +39,6 @@ project:
   toc:
     - file: main.md
     - file: experiments/experimental-01/20250220-analysis.ipynb
-      title: Analysis Notebook
   # The rest of the information shouldn't be modified
   github: https://github.com/bnext-bio/nucleus-developer-notes
   license: CC-BY-4.0
@@ -48,15 +51,27 @@ project:
   jupyter: true
   exports:
     - format: meca
+    - format: typst
+      template: https://github.com/curvenote-templates/bnext.git
+      article: main.md
+      output: bnext-template.pdf
+      id: article
   requirements:
     - environment.yml
   resources:
+    - general/**/*
     - src/**/*
     - experimental/**/*
     - figures/**/*
   downloads:
+    - id: article
+      title: Download Article PDF
     - file: experimental/MTHFS-labnotebook.pdf
       title: Lab Notebook Entry
+  # funding:
+  #   - id: G-0000-00000
+  #     source:
+  #       - Alfred P. Sloan Foundation
 site:
   template: article-theme
   nav: []
