@@ -52,6 +52,11 @@ project:
   jupyter: true
   exports:
     - format: meca
+    - format: typst
+      template: https://github.com/curvenote-templates/bnext.git
+      article: main.md
+      output: bnext-template.pdf
+      id: article
   requirements:
     - environment.yml
   resources:
@@ -60,6 +65,8 @@ project:
     - experimental/**/*
     - figures/**/*
   downloads:
+    - id: article
+      title: Download Article PDF
     - file: experimental/MTHFS-labnotebook.pdf
       title: Lab Notebook Entry
 site:
