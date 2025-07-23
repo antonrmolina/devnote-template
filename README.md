@@ -2,7 +2,7 @@
 
 ## Getting started
 
-[Developer Notes](https://devnotes.bnext.bio/) (DevNotes) are a concise form of scientific communication designed for rapid sharing of insights and results of interest to the Nucleus synthetic cell community. Since they are built on top of Jupyter Notebooks, they can easily integrate code and a variety of file types, bundling an entire research workflow into a discrete package.
+[Developer Notes](https://devnotes.bnext.bio/) (DevNotes) are a concise form of scientific communication designed to rapidly share insights and results of interest to the Nucleus synthetic cell community. Since they are built on top of Jupyter Notebooks, they can easily integrate code and a variety of file types, bundling an entire research workflow into a discrete package.
 
 If you are new to DevNotes, get started by reading the documentation for getting started with [Nucleus Hub](https://nucleus.bnext.bio/nucleus-hub-guide) and writing your first [DevNote](https://nucleus.bnext.bio/developer-note-guide). DevNotes are the primary vehicle through which Covered Source for Nucleus will be distributed, pursuant to the Notice below. Results and insights that are highly useful and/or relevant will be integrated into the [Nucleus Distribution](https://nucleus.bnext.bio/) by the Core Development Team at b.next.
 
