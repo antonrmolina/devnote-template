@@ -23,9 +23,9 @@ project:
     - Cytosol
     - Module
   # Add the abbreviations that you use in your paper here
-  abbreviations:
-    MyST: Markedly Structured Text
-    CDK: cell development kit
+  # abbreviations:
+  #   MyST: Markedly Structured Text
+  #   CDK: cell development kit
   # Add specs here for any additional content you want to cross reference
   references:
     devnotes: https://devnotes.bnext.bio
