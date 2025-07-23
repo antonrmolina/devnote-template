@@ -1,6 +1,6 @@
 version: 1
 project:
-  #doi: 10.63765/djnv7772
+  # doi: 10.63765/djnv7772
   # Update this to match `nucleus-devnote-core-<folder>` the folder should be `???`
   id: nucleus-devnote-core-00_myst_template
   # Ensure your title is the same as in your `main.md`
@@ -69,6 +69,10 @@ project:
       title: Download Article PDF
     - file: experimental/MTHFS-labnotebook.pdf
       title: Lab Notebook Entry
+  # funding:
+  #   - id: G-0000-00000
+  #     source:
+  #       - Alfred P. Sloan Foundation
 site:
   template: article-theme
   nav: []
