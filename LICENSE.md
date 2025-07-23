@@ -1,8 +1,6 @@
 # CERN-OHL-P License Agreement
 
-**Copyright**: All Covered Source is Copyright (c) b.next, Inc. 2025 and the other licensors identified in unique files. Aspects of Covered Source may be patent pending. 
-
-For purposes of this distribution, 'Covered Source' means and includes all materials contained in this directory and certain elements referenced within that are needed to Make the Product described in this Developer Note, consistent with the definition of Covered Source in the [CERN Open Hardware License version 2 – Permissive](https://opensource.org/license/cern-ohl-p) (“CERN-OHL-P-2.0”). Certain elements of the Covered Source identified below are not amenable to distribution via GitHub, such as:
+**Copyright**: All Covered Source is Copyright (c) b.next, Inc. 2025 and the other licensors identified in unique files. Aspects of Covered Source may be patent pending. For purposes of this distribution, 'Covered Source' means and includes all materials contained in this directory and certain elements referenced within that are needed to Make the Product described in this Developer Note, consistent with the definition of Covered Source in the [CERN Open Hardware License version 2 – Permissive](https://opensource.org/license/cern-ohl-p) (“CERN-OHL-P-2.0”). Certain elements of the Covered Source identified below are not amenable to distribution via GitHub, such as:
 
 - background protocols, datasets, and designs are licensed under the terms of the CERN-OHL-P-2.0 as described herein and can be obtained from nucleus.bnext.bio; 
 - physical plasmids and other biological materials can be obtained under the terms of the [OpenMTA](https://www.openplant.org/openmta) by request to b.next, Inc. (email: build@bnext.bio)  (corresponding designs, e.g. sequence specifications, are licensed under the terms of the CERN-OHL-P-2.0 as described herein);
