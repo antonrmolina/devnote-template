@@ -54,6 +54,7 @@ project:
   requirements:
     - environment.yml
   resources:
+    - general/**/*
     - src/**/*
     - experimental/**/*
     - figures/**/*
