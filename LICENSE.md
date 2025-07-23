@@ -4,7 +4,7 @@
 
 - background protocols, datasets, and designs are licensed under the terms of the CERN-OHL-P-2.0 as described herein and can be obtained from nucleus.bnext.bio; 
 - physical plasmids and other biological materials can be obtained under the terms of the [OpenMTA](https://www.openplant.org/openmta) by request to b.next, Inc. (email: build@bnext.bio)  (corresponding designs, e.g. sequence specifications, are licensed under the terms of the CERN-OHL-P-2.0 as described herein);
-- the Nucleus Cell Development Kit is licensed under the terms of the [MIT license](https://opensource.org/license/mit) and can be obtained from https://pypi.org/project/nucleus-cdk/;
+- the Nucleus Cell Development Kit is licensed under the terms of the [MIT license](https://opensource.org/license/mit) and can be obtained from [PyPI](https://pypi.org/project/nucleus-cdk/);
 - third-party contributions available from devnotes.bnext.bio licensed under the terms of the CERN-OHL-P-2.0 as described herein.
 
 DevNotes available at devnotes.bnext.bio are the primary vehicle through which Covered Source from both b.next and third party contributors will be distributed pursuant to the CERN-OHL-P 2.0 license.
