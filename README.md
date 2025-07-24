@@ -22,7 +22,7 @@ The contents of this DevNote are Covered Source and licensed under the CERN-OHL-
 
 ## Thanks
 
-All contributors to the project are listed at https://nucleus.bnext.bio/thanks.
+All contributors to the project are listed at https://nucleus.bnext.bio/collaborators.
 
 ## Contact
 
