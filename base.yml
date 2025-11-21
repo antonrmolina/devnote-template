@@ -18,11 +18,11 @@ project:
   jupyter: true
   exports:
     - format: meca
-    # - format: typst
-    #   template: https://github.com/curvenote-templates/bnext.git
-    #   article: main.md
-    #   output: bnext-template.pdf
-    #   id: article
+    - format: typst
+      template: https://github.com/curvenote-templates/bnext.git
+      article: main.md
+      output: devnote.pdf
+      id: article
   requirements:
     - environment.yml
   resources:
@@ -31,10 +31,10 @@ project:
     - general/**/*
     - experiments/**/*
   downloads:
-    # - id: article
-    #   title: Download Article PDF
     - file: experiments/experimental-01/00-general/MTHFS-labnotebook.pdf
       title: Lab Notebook Entry
+    - id: article
+      title: Download Article PDF
   #
   # Are there standard reference sources that should be made available to the
   # author within the template to make citing easy? if so add a .bib file and
