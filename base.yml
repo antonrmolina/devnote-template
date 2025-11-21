@@ -28,6 +28,7 @@ project:
   resources:
     - src/**/*
     - figures/**/*
+    - general/**/*
     - experiments/**/*
   downloads:
     # - id: article
