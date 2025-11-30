@@ -126,6 +126,7 @@ In this Developer Note we've discussed a few important points for writing your f
 - How to prepare figures and tables, panels of figures with `{tab-item}`, and how to create figures from linked jupyter notebook cells. 
 - How to include internal references to tables and figures in your document using `label` and `[]()` syntax as well as how to create external references to papers by DOI using similar syntax. 
 
-As a next step, consider examining the file `example.md` as an example of an actual [DevNote](https://devnotes.bnext.bio/articles/cytosol-module-mthfs). Also consider looking at existing DevNotes that are published, many of those containing experimental data have an active `Launch Jupyter` button in the upper right corner that will allow you to explore the entire project directory. 
+As a next step, consider examining the file `example.md` as an example of an actual [DevNote](
+https://doi.org/10.63765/hrvh2868). Also consider looking at existing DevNotes that are published, many of those containing experimental data have an active `Launch Jupyter` button in the upper right corner that will allow you to explore the entire project directory, this [one](https://doi.org/10.63765/djnv7772) gives a nice example.
 
 We look forward to receiving your DevNote submission! 🚀 🧬
