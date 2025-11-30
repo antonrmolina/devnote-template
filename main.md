@@ -75,7 +75,7 @@ My caption.
 Now, notice in the two figures included in the tab set how the first figure with label "Time series" references a figure using `#fig:kinetcs`. This is referring to a specific jupyter notebook cell that has been so labelled. If you open the file `experiments/experimental-01/20250220-analysis.ipynb` you can see that some of the cells have something like `#| label: fig:kinetics` in their very first line. This allows them to be referenced in this document by appending a `#` to the label. Meanwhile, the second figure with label "End point" is created by referencing a similar output that was saved as a `.png` file, specifically `/experiments/experimental-02/03-analysis/MTHFS_endpoint.png`. Note that other items like tables can also be included in tab sets. 
 
 
-::{table} Description of experimental paramters
+:::{table} Description of experimental paramters
 :label: table-experimental-params
 :align: center
 
