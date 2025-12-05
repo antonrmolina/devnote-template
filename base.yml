@@ -28,11 +28,16 @@ project:
   resources:
     - src/**/*
     - figures/**/*
+    - figures/**/*
     - general/**/*
+    - General/**/*
     - experiments/**/*
+    - Experiments/**/*
+    - resources/**/*
+    - Resources/**/*
+    - plasmids/**/*
+    - Plasmids/**/*
   downloads:
-    - file: experiments/experiment-01/MTHFS-labnotebook.pdf
-      title: Lab Notebook Entry
     - id: article
       title: Download Article PDF
   #
