@@ -6,7 +6,7 @@ If you are new to DevNotes, begin by reading the documentation for getting start
 
 ## Getting started
 
-This template is intended to be accessed from Nucleus [Hub](https://bnext.bio/hub). It contains an example DevNote that features some useful syntax it also contains a sparse template that can be used straight away. 
+This template is intended to be accessed from [Nucleus Hub](https://bnext.bio/hub).
 
 ## How to use this template
 
