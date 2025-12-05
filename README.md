@@ -6,9 +6,19 @@ If you are new to DevNotes, begin by reading the documentation for getting start
 
 ## Getting started
 
-This template is intended to be accessed from Nucleus [Hub](TODO). It contains an example DevNote that features some useful syntax it also contains a sparse template that can be used straight away. 
+This template is intended to be accessed from Nucleus [Hub](https://bnext.bio/hub). It contains an example DevNote that features some useful syntax it also contains a sparse template that can be used straight away. 
 
 ## How to use this template
+
+This template contains a few markdown `.md` template files to help you get started writing a DevNote:
+
+- `main.md` is a "meta" DevNote: a DevNote that describes how to write a DevNote.
+- `template-blank.md` is a (nearly) blank DevNote that let's the more experienced developer get started on a new project quickly.
+- `template-example.md` is an actual that can be [viewed](https://devnotes.bnext.bio/articles/cytosol-module-mthfs) on Developer Notes and provides an example of a complete contribution.
+
+The typical workflow for creating a DevNote that includes experimental data will involve populating the `./experiments/` directory with experimental directories. An experiment is typically at the scale of a single well plate or less. An example experimental directory is included in this template project:
+
+- `./experiments/experiment-01/` is the experimental directory supporting the contribution described in `template-example.md`.
 
 ## Website
 
