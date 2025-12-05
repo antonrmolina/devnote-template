@@ -6,14 +6,14 @@ project:
   # id: the-curvenote-init-process-will-create-a-random-id
   #
   # Ensure your title is the same as in your `main.md`
-  title: "MTHFS - an Unexpected Enzyme in PURE"
+  title: "Meta DevNote: a DevNote about creating DevNotes"
   subtitle: "[summarize my devnote in one sentence]"
   description: "[this appears as description for social media preview, recommend using subtitle]"
   #
   # Authors should have affiliations, emails and ORCIDs if available
   authors:
-    - name: Yemo Ku
-      email: yemo@bnext.bio
+    - name: Sam Cell
+      email: build@bnext.bio
       orcid: 0000-0000-0000-0001
       affiliations:
         - name: b.next, San Francisco, California, 94107, USA
@@ -32,8 +32,8 @@ project:
   # abbreviations:
   #   THING: Something specific to this devnote
   #
-  # Set an initial publisation date for the note
-  date: 2025-07-10
+  # Set an initial publisation date for the note YYYY-MM-DD
+  date: 2026-01-10
   # Reference a specific thumbnail if you are not happy with the automatically selected one
   # thumbnail: thumbnail.png
   # A create a banner image for your publication, use this is a placeholder as a guide (webp or png)
