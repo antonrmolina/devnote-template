@@ -38,10 +38,11 @@ project:
   # thumbnail: thumbnail.png
   # A create a banner image for your publication, use this is a placeholder as a guide (webp or png)
   banner: banner.webp
+  thumbnail: general/schematic-FA_metabolism.png
   # Add any supporting files to the toc, but ensure that your main manuscript is first is the list
   toc:
     - file: main.md
-    - file: experiments/experimental-01/20250220-analysis.ipynb
+    - file: experiments/experiment-01/20250220-analysis.ipynb
   # The rest of the information shouldn't be modified
   #
   # Standard plugins are included (see base.yml), the list of plugins can be extended here.
@@ -65,7 +66,7 @@ project:
   #
   # Downloads are files that should be packaged with the devnote for download by the reader.
   downloads:
-    - file: experiments/experimental-01/00-general/MTHFS-labnotebook.pdf
+    - file: experiments/experiment-01/MTHFS-labnotebook.pdf
       title: Lab Notebook Entry
   #
   # Funding information can be added here.

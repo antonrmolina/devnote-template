@@ -11,8 +11,8 @@ project:
     MyST: Markedly Structured Text
     CDK: cell development kit
   keywords:
-    - Synthetic Biology
-    - Nucleus
+    - Cytosol
+    - Module
   plugins:
     - lorem.mjs
   jupyter: true
@@ -31,7 +31,7 @@ project:
     - general/**/*
     - experiments/**/*
   downloads:
-    - file: experiments/experimental-01/00-general/MTHFS-labnotebook.pdf
+    - file: experiments/experiment-01/MTHFS-labnotebook.pdf
       title: Lab Notebook Entry
     - id: article
       title: Download Article PDF

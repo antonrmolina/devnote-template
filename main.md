@@ -13,7 +13,7 @@ DevNotes are intended to be engineering tools. They are designed to communicate 
 
 It can also be a space to express musings, concerns, etc. For example, a template describing other types of DevNotes should probably exist. In the future, we plan to address this. 
 
-:::{figure} ./figures/FA_metabolism.png
+:::{figure} ./general/schematic-FA_metabolism.png
 :label: fig:FA_metabolism
 :width: 75%
 Reaction pathway for the production of 10-formyl-THF from Folinic acid by MTHFS. The formyl group used in fMet synthesis is highlighted in yellow. We highlight a nonchanging portion of the molecule in blue for visual convenience.
@@ -43,8 +43,8 @@ In order to make sure the particular jupyter notebook is known to the project, t
 ```
 toc:
     - file: main.md
-    - file: experiments/experimental-01/20250220-analysis.ipynb
-    - file: experiments/experimental-02/yet-another-jupyter-notebook.ipynb
+    - file: experiments/experiment-01/20250220-analysis.ipynb
+    - file: experiments/experiment-02/yet-another-jupyter-notebook.ipynb
 ```
 
 The main thing to keep in mind is that the first file should be `main.md`. If the jupyter notebook is not properly referenced, the figure will not render. Another thing to keep in mind is that the first line of your jupyter notebook should be labelled thoughtfully. For example, the first line should be something like `# Analysis YYYY-MM-DD` since this is what will appear in the supporting documents menu. 
@@ -72,7 +72,7 @@ My caption.
 
 ```
 
-Now, notice in the two figures included in the tab set how the first figure with label "Time series" references a figure using `#fig:kinetcs`. This is referring to a specific jupyter notebook cell that has been so labelled. If you open the file `experiments/experimental-01/20250220-analysis.ipynb` you can see that some of the cells have something like `#| label: fig:kinetics` in their very first line. This allows them to be referenced in this document by appending a `#` to the label. Meanwhile, the second figure with label "End point" is created by referencing a similar output that was saved as a `.png` file, specifically `/experiments/experimental-02/03-analysis/MTHFS_endpoint.png`. Note that other items like tables can also be included in tab sets. 
+Now, notice in the two figures included in the tab set how the first figure with label "Time series" references a figure using `#fig:kinetcs`. This is referring to a specific jupyter notebook cell that has been so labelled. If you open the file `experiments/experiment-01/20250220-analysis.ipynb` you can see that some of the cells have something like `#| label: fig:kinetics` in their very first line. This allows them to be referenced in this document by appending a `#` to the label. Meanwhile, the second figure with label "End point" is created by referencing a similar output that was saved as a `.png` file, specifically `/experiments/experiment-01/MTHFS_endpoint.png`. Note that other items like tables can also be included in tab sets. 
 
 
 :::{table} Description of experimental paramters
@@ -103,7 +103,7 @@ Steady state fluorescence measurements comparing PURE system performance across 
 ::::
 
 ::::{tab-item} End point
-:::{figure} ./experiments/experimental-02/03-analysis/MTHFS_endpoint.png
+:::{figure} ./experiments/experiment-01//MTHFS_endpoint.png
 :name: fig-endpoint
 :align: center
 :width: 50%
